@@ -1,0 +1,13 @@
+Esta es la Historia de Julisa
+Aprendiendo de git y github
+En Platzy
+
+git init // inicializar git por la consola dentro de la carpeta (repositorio) donde se va a trabajar
+
+ls -al // listado de los archivos de la carpeta y los ocultos
+
+code . //abre el visual estudio code desde la consola
+
+git status // muestra los archivos para hacer commits en github
+
+git add historia.txt //
