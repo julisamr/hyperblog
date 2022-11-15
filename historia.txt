@@ -33,3 +33,6 @@ git show
 git log historia.txt // muestra todos los commit que se han realizado 
 
 git diff commit commit // compara dos commit de los realizados
+
+git reset 1b3ddef394f18da22c9d71f305c4cc1d8fb9e763 --hard // elimina todos los demás commits excepto el seleccionado
+
