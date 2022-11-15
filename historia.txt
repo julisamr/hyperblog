@@ -8,6 +8,28 @@ ls -al // listado de los archivos de la carpeta y los ocultos
 
 code . //abre el visual estudio code desde la consola
 
-git status // muestra los archivos para hacer commits en github
+git status // muestra los archivos para hacer commits  y los que no en GitHub
 
-git add historia.txt //
+git add historia.txt // muestra los archivos que están listos para hacer commits en GitHub
+
+git rm historia.txt // para sacarlo de la lista para hacer commits pero queda en la cache
+
+git rm --cached historia.txt // para sacarlo de la lista para hacer commits
+
+git commits // envía los cambios al repositorio
+
+git config // se ve la configuración de git
+
+git config --list // la configuración por defecto y lo que puede faltar
+
+git -a // para actualizar el commit
+
+git log historia.txt // muestra todos los cambios y los commit que se han hecho a ese archivo
+
+git add , //para que agregue los cambios
+
+git show
+
+git log historia.txt // muestra todos los commit que se han realizado 
+
+git diff commit commit // compara dos commit de los realizados
